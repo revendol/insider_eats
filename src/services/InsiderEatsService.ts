@@ -114,6 +114,8 @@ class InsiderEatsService {
     }
     return false;
   }
+
+  
 }
 
 export default new InsiderEatsService();

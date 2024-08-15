@@ -43,7 +43,6 @@
     "@types/node-cron": "^3.0.7",
     "@types/nodemailer": "^6.4.7",
     "@types/validatorjs": "^3.15.0",
-    "aws-sdk": "^2.1342.0",
     "axios": "^1.7.2",
     "bcrypt": "^5.1.0",
     "bcryptjs": "^2.4.3",

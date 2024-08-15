@@ -26,6 +26,20 @@ class InsiderEatsController {
     //     }));
     // }
   }
+  async cloverPath(req: Request, res: Response) {
+    // try {
+      return res.status(OK).send(success(ErrorMessage.HTTP_OK, {
+         
+      }));
+    // } catch (err) {
+    //   return res
+    //     .status(INTERNAL_SERVER_ERROR)
+    //     .send(failure({
+    //       message: ErrorMessage.HTTP_INTERNAL_SERVER_ERROR,
+    //       errors: err
+    //     }));
+    // }
+  }
 }
 
 export default new InsiderEatsController();

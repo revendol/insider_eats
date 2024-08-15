@@ -5,12 +5,7 @@ const router = Router();
 
 export const p = {
   basePath: '/clover',
-  webhook: '/webhook'
+  createOrder: '/createOrder'
 } as const;
-
-router.post(
-  p.webhook,
-  (req: Request, res: Response) => CloverController.webhook(req, res)
-);
 
 export default router;
