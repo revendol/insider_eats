@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+      target: base
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5500:5500
+    command: npm run dev
+
+volumes:
+  . : {}

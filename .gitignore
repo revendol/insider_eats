@@ -1,0 +1,9 @@
+**/node_modules
+dist/
+**/**/*.log
+package-lock.json
+files
+.idea
+.DS_Store
+**/env
+src/pre-start/env
